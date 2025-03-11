@@ -1,4 +1,4 @@
-import React from 'react';
+/* eslint-disable react/react-in-jsx-scope */
 import { Card } from 'react-bootstrap';
 import style from '../ListaDeEstudos.module.css';
 import { ITarefa } from '../../../types/ITarefa';
