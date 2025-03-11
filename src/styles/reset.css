@@ -1,0 +1,64 @@
+/* Reset CSS */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Quicksand:wght@300..700&display=swap');
+
+/* Box sizing border-box para todos os elementos */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* Remover decoração de link */
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* Resetar lista */
+ul,
+ol {
+  list-style: none;
+}
+
+/* Garantir que elementos sem borda não tenham aparência estranha */
+button,
+input,
+textarea,
+select {
+  border: none;
+  background: none;
+  font: inherit;
+  outline: none;
+}
+
+/* Melhorar a renderização de fontes */
+body {
+  font-family: "Montserrat", serif;
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  color: white;
+}
+
+/* Garantir que imagens e vídeos sejam responsivos */
+img,
+video {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+/* Definir altura mínima para o body */
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+
+/* Resetar estilos de tabela */
+table {
+  border-collapse: collapse;
+  width: 100%;
+}

@@ -1,0 +1,18 @@
+.custom_input {
+    color: white !important; 
+    background-color: #212529 !important; 
+    border: 1px solid #495057; 
+    box-shadow: inset 2px 2px 5px rgba(0, 0, 0, 0.3);
+}
+
+.custom_input::placeholder {
+    color: gray; 
+    opacity: 1;
+}
+
+.custom_input:focus {
+    color: white !important; 
+    background-color: #212529 !important; 
+    outline: none; 
+    border: 1px solid #6c757d; 
+}

@@ -1,0 +1,21 @@
+.cronometro {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    grid-area: cronometro;
+}
+
+.relogioWrapper {
+    display: flex;
+    flex-direction: column; /* Equivalente a flex-column */
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+    border-radius: 10px; /* Mantendo arredondamento */
+    padding: 16px; /* Ajuste para um espaçamento mais uniforme */
+    margin-bottom: 16px; /* Reduzindo espaçamento excessivo */
+    box-shadow: 2px 4px 4px #0000009f;
+    font-size: 5rem;
+    background-color: #7687A1;
+}
+

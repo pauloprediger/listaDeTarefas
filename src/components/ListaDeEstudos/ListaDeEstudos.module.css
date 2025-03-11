@@ -1,0 +1,42 @@
+.listaEstudos {
+    width: 100%; /* Garante que ocupa toda a largura disponível */
+    height: 400px; /* Defina uma altura fixa para o container */
+    overflow: hidden; /* Impede que os elementos internos transbordem */
+}
+
+.conteudo {
+    max-height: 350px; /* Garante que os cards não ultrapassem o limite do contêiner */
+    overflow-y: auto; /* Adiciona rolagem vertical caso haja muitos cards */
+}
+
+.custom_card {
+    cursor: pointer;
+    background-color: #4d4d4d;
+}
+
+.item_selecionado {
+    background-color: #292929;
+    box-shadow: 2px 4px 4px #0000009f inset;
+}
+.item_completado {
+    background-color: #566F42;
+}
+
+.concluido {
+    display: block;
+    background-image: url('../../assets/check.svg');
+    background-repeat: no-repeat;
+    background-size: 38px 38px;
+    position: absolute;
+    top: 50%;
+    right: 12px;
+    transform: translateY(-50%);
+    width: 42px;
+    height: 43px;
+}
+@media screen and (min-width: 1024px) {
+    /* Ajuste para telas grandes */
+    .custom_card {
+        width: 300px;
+    }
+}

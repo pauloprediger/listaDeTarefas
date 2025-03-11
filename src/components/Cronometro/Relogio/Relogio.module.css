@@ -1,0 +1,37 @@
+.relogioNumero {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #5d677c;
+    box-shadow: inset 2px 2px 4px #2b2b2b;
+    height: 3.6rem;
+    width: 3rem;
+    padding: 8px 4px;
+    border-radius: 10px;
+    font-size: 2.5rem; /* Ajustado para caber melhor na caixa */
+    font-weight: bold;
+    color: white;
+}
+
+.relogioDivisao {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 4.2rem;
+    font-size: 3rem;
+    font-weight: bold;
+    color: white;
+}
+
+@media screen and (min-width: 1280px) {
+    .relogioNumero {
+        height: 10.8rem;
+        width: 9rem;
+        font-size: 7rem; /* Ajuste proporcional ao tamanho */
+    }
+
+    .relogioDivisao {
+        height: 12.6rem;
+        font-size: 8rem;
+    }
+}
