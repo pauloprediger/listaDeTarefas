@@ -4,6 +4,7 @@ import styles from './NovoEstudo.module.css';
 import Botao from '../Botao';
 import { useState } from 'react';
 import { useEstudos } from '../../contexts/EstudosContext';
+import { v4 as uuidv4 } from 'uuid';
 
 const textStyle = {
     color: 'white',
@@ -17,7 +18,13 @@ const NovoEstudo = () => {
 
     const handleSubmit = (event: React.FormEvent<HTMLFormElement>) => {
         event.preventDefault();
-        adicionarEstudo({ tarefa, tempo });
+        adicionarEstudo({ 
+            tarefa, 
+            tempo, 
+            selecionado: false, 
+            completado: false, 
+            id : uuidv4()
+        });
 
         setTarefa('');
         setTempo('00:00:00');
