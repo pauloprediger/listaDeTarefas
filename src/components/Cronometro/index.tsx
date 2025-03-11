@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react';
+import { useEffect, useState } from 'react';
 import style from './Cronometro.module.css';
 import Botao from '../Botao';
 import Relogio from './Relogio';

@@ -10,7 +10,12 @@ interface BotaoProps {
 
 const Botao = ({ children, type, functionBotao }: BotaoProps) => {
     return (
-        <Button variant="primary" type={type} className={`${styles.custom_button} border-0`} onClick={functionBotao}>
+        <Button
+            variant="primary"
+            type={type}
+            className={`${styles.custom_button} border-0`}
+            onClick={functionBotao}
+        >
             {children}
         </Button>
     );

@@ -1,5 +1,4 @@
 import style from './Relogio.module.css';
-import React from 'react';
 
 interface RelogioProps {
     tempo: number | undefined;

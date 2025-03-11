@@ -1,4 +1,3 @@
-import React from 'react';
 import NovoEstudo from '../components/NovoEstudo';
 import Cronometro from '../components/Cronometro';
 import ListaDeEstudos from '../components/ListaDeEstudos';
